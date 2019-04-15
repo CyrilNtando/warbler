@@ -1,0 +1,28 @@
+{
+  "name": "warbler",
+  "version": "1.0.0",
+  "description": "tweeter clone",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyrilNtando/warbler.git"
+  },
+  "author": "Ntando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyrilNtando/warbler/issues"
+  },
+  "homepage": "https://github.com/CyrilNtando/warbler#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.1"
+  }
+}
