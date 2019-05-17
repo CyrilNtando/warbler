@@ -32,7 +32,7 @@ exports.signin = async function(req, res, next) {
     } else {
       return next({
         status: 400,
-        message: "Invalid Email / password 1"
+        message: "Invalid Email / password"
       });
     }
   } catch (err) {
